@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+  <title>Digital-Soundboard</title>
+  <script src="game.js //cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js" type="text/javascript"></script>
+</head>
+<body>
+<audio id="doh">
+  <source src="http://jetcityorange.com/musical-notes/A3-220.0.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<audio id="re">
+  <source src="http://jetcityorange.com/musical-notes/Asharp3-233.08.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<audio id="mi">
+  <source src="http://jetcityorange.com/musical-notes/C4-261.63.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<audio id="fa">
+  <source src="http://jetcityorange.com/musical-notes/Csharp4-277.18.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<audio id="so">
+  <source src="http://jetcityorange.com/musical-notes/Dsharp4-311.13.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<audio id="la">
+  <source src="http://jetcityorange.com/musical-notes/E4-329.63.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<audio id="ti">
+  <source src="http://jetcityorange.com/musical-notes/G4-392.0.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<audio id="Doh">
+  <source src="http://jetcityorange.com/musical-notes/Gsharp4-415.3.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<h1>Soundboard</h1>
+<div id="instrument">
+  <div class="box" id="a">
+    <p>doh</p>
+  </div>
+  <div class="box" id="b">
+    <p>re</p>
+  </div>
+  <div class="box" id="c">
+    <p>mi</p>
+  </div>
+  <div class="box" id="d">
+    <p>fa</p>
+  </div>
+  <div class="box" id="e">
+    <p>so</p>
+  </div>
+  <div class="box" id="f">
+    <p>la</p>
+  </div>
+  <div class="box" id="g">
+    <p>ti</p>
+  </div>
+  <div class="box" id="h">
+    <p>Doh</p>
+  </div>
+</div>
+
+<p class="info">Welcome to the Soundboard.<br>Please feel free to play a custom tune or even record your own song.<br>Whatever it may be, let your creativity run wild and have fun!</p>
+<div id="allButtons" class="container">
+  <button class="start btn btn-success"><p>PLAY</p></button>
+  <button class="reset btn btn-warning"><p>RESET</p></button>
+  <button class="record btn btn-danger"><p class="record-text">RECORD</p></button>
+  <div class="recording-indicator"></div>
+</div>
+</body>
+</html>
